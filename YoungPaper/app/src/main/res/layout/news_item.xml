@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginBottom="2dp">
+
+    <ImageView
+        android:id="@+id/newsPhotoImg"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="301dp"
+        android:layout_marginRight="301dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/newsTitle"
+        android:layout_width="260dp"
+        android:layout_height="90dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/newsPhotoImg"
+        app:layout_constraintTop_toTopOf="@+id/newsPhotoImg"
+        tools:text="title" />
+
+    <TextView
+        android:id="@+id/newsLead"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/newsPhotoImg"
+        app:layout_constraintEnd_toEndOf="@id/newsTitle"
+        tools:text="hello, this is lead~~" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
