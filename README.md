@@ -4,7 +4,7 @@ Hansung Univ. Computer engineering Graduation Project
 ## 작품 개요
 ### 20~30대를 위한 정보만을 모은 뉴스 편집 애플리케이션
 
-##작품 기능
+## 작품 기능
 * 회원가입과 로그인
 ```
 회원가입 시 정보를 입력하고 정보를 통해 로그인 과정을 거칩니다. 
